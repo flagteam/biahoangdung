@@ -1,0 +1,160 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: White Rose\n"
+"POT-Creation-Date: 2014-01-16 20:33+0530\n"
+"PO-Revision-Date: 2014-01-16 20:33+0530\n"
+"Last-Translator: Team Theme Pix <info@themepix.com>\n"
+"Language-Team: Theme Pix <info@themepix.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-Basepath: \\\\BHAVYA2\\htdocs\\wordpress3.8\\wp-content\\themes"
+"\\WhiteRose\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: \\\\BHAVYA2\\htdocs\\wordpress3.8\\wp-content\\themes"
+"\\WhiteRose\n"
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/category-x.php:32
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/index-x.php:14
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/page-x.php:14
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/single-x.php:15
+msgid "Filed under&#58;"
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/category-x.php:32
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/category.php:38
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/index-x.php:14
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/index.php:26
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/page-x.php:14
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/page.php:26
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/single-x.php:15
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/single.php:26
+msgid "by"
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/category.php:38
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/index.php:26
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/page.php:26
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/single.php:26
+msgid "Posted on"
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/category.php:38
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/index.php:26
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/page.php:26
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/single.php:26
+msgid "under"
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/functions.php:33
+msgid "Primary Menu"
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/functions.php:49
+msgid "Primary Sidebar"
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/functions.php:58
+msgid "Footer 1"
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/functions.php:67
+msgid "Footer 2"
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/functions.php:76
+msgid "Footer 3"
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/admin/classes/class.options_machine.php:556
+msgid "Last Backup : "
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/admin/front-end/options-dnd.php:43
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/admin/front-end/options-dnd.php:67
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/admin/front-end/options.php:44
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/admin/front-end/options.php:68
+msgid "Save All Changes"
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/admin/front-end/options-dnd.php:68
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/admin/front-end/options.php:69
+msgid "Options Reset"
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/libs/plugins/simple-facebook-plugin/lib/sfp-like-box.php:92
+msgid "Title"
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/libs/plugins/simple-facebook-plugin/lib/sfp-like-box.php:96
+msgid "Facebook Page URL:"
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/libs/plugins/simple-facebook-plugin/lib/sfp-like-box.php:101
+msgid "Like Box width:"
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/libs/plugins/simple-facebook-plugin/lib/sfp-like-box.php:106
+msgid "Like Box height:"
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/libs/plugins/simple-facebook-plugin/lib/sfp-like-box.php:114
+msgid "Color Scheme:"
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/libs/plugins/simple-facebook-plugin/lib/sfp-like-box.php:123
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/libs/widgets/facebook-9-01-2014.php:121
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/libs/widgets/facebook.php:121
+msgid "Show Faces"
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/libs/plugins/simple-facebook-plugin/lib/sfp-like-box.php:128
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/libs/widgets/facebook-9-01-2014.php:122
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/libs/widgets/facebook.php:122
+msgid "Show Stream"
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/libs/plugins/simple-facebook-plugin/lib/sfp-like-box.php:133
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/libs/widgets/facebook-9-01-2014.php:123
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/libs/widgets/facebook.php:123
+msgid "Show Header"
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/libs/plugins/simple-facebook-plugin/lib/sfp-like-box.php:138
+msgid "Show Border"
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/libs/plugins/simple-facebook-plugin/lib/sfp-like-box.php:145
+msgid "Language"
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/libs/plugins/tabs/tabs.php:34
+msgid "Allows you to add multiple widgets in tabs. "
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/libs/plugins/tabs/tabs.php:111
+msgid "By"
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/libs/plugins/tabs/tabs.php:125
+msgid "Permalink to "
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/libs/plugins/tabs/tabs.php:125
+msgid "Read More &raquo;"
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/libs/widgets/facebook-9-01-2014.php:30
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/libs/widgets/facebook.php:30
+msgid ""
+"Facebook Like Box social widget. Enables Facebook Page owners to attract and "
+"gain Likes from their own website."
+msgstr ""
+
+#: \\BHAVYA2\htdocs\wordpress3.8\wp-content\themes\WhiteRose/libs/widgets/social-profiles.php:28
+msgid "Add buttons to your social network profiles."
+msgstr ""
