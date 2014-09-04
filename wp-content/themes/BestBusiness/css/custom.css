@@ -1139,3 +1139,48 @@ div.sidebaradbox {
 	margin-bottom: 15px;
 	margin-left:15px;
 }
+
+.menu-trinh-don-1-container ul#menu-trinh-don-1{
+    width: 1140px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background: #FF8C00;
+}
+
+.menu-trinh-don-1-container ul#menu-trinh-don-1 li a:hover{
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background: red !important;
+}
+
+.menu-trinh-don-1-container ul#menu-trinh-don-1 li a {
+    color: #ffffff !important;
+    font-family: arial;
+}
+
+.top-header-bg{
+    background: #FFD700 !important;
+}
+
+.navbar.navbar-inverse.navbar-static-top.navbar-default.top-menu-bg{
+    -moz-border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+    background: none !important;
+}
+
+.menu-trinh-don-1-container ul#menu-trinh-don-1 li{
+    border-right: 1px solid #ffffff;
+}
+
+.menu-trinh-don-1-container ul#menu-trinh-don-1 li a{
+    color: #003399;
+}
