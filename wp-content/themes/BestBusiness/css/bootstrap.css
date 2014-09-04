@@ -57,6 +57,7 @@ a:focus {
 
 a:active,
 a:hover {
+  color: #FE2E2E;
   outline: 0;
 }
 
@@ -308,6 +309,7 @@ body {
   line-height: 1.428571429;
   color: #333333;
   background-color: #ffffff;
+  background-image: url("../images/zenbg.png");
 }
 
 input,
@@ -326,8 +328,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #2a6496;
-  text-decoration: underline;
+  color: #FE2E2E;
 }
 
 a:focus {
