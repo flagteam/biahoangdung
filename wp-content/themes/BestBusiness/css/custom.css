@@ -1173,6 +1173,6 @@ div.sidebaradbox {
 }
 
 .current-menu-item {
-    background: #f00f00;
+    background: #f00f00 !important;
     color: #000;
 }
