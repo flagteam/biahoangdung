@@ -193,7 +193,7 @@ p {
 .navbar-collapse {
     background: none repeat scroll 0 0 #D74B5E;
     border-top: 0 none;
-    color: #FFFFFF !important;
+    color: #f00f00 !important;
     /*padding: 0 10px !important;*/
     width: 100%;
 }
