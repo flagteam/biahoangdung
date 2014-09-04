@@ -276,6 +276,7 @@ p {
     padding-bottom: 0;
     padding-top: 0;
     width: 220px;
+    color: #ffffff !important;
 }
 .dropdown-menu li ul {
     margin: -33px 0 0 220px;
@@ -1151,7 +1152,7 @@ div.sidebaradbox {
 }
 
 .menu-trinh-don-1-container ul#menu-trinh-don-1 li a {
-    color: #f00f00 !important;
+    color: #ffffff !important;
     font-family: arial;
 }
 
@@ -1169,4 +1170,9 @@ div.sidebaradbox {
 
 .menu-trinh-don-1-container ul#menu-trinh-don-1 li a{
     color: #003399;
+}
+
+.current-menu-item {
+    background: #f00f00;
+    color: #000;
 }
