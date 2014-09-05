@@ -274,13 +274,14 @@ p {
     border-color: #FE7285 !important;
 }
 .dropdown-menu {
-    background-color: #333333 !important;
+    background-color: #f00f00 !important;
     border: 0 none !important;
     border-radius: 0;
     box-shadow: 0 0 0 0 !important;
     padding-bottom: 0;
     padding-top: 0;
     width: 220px;
+    color: #ffffff !important;
 }
 .dropdown-menu li ul {
     margin: -33px 0 0 220px;
@@ -1148,20 +1149,10 @@ div.sidebaradbox {
 .menu-trinh-don-1-container ul#menu-trinh-don-1{
     width: 1140px;
     border: 2px solid #ffffff;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
     background: #FF8C00;
 }
 
 .menu-trinh-don-1-container ul#menu-trinh-don-1 li a:hover{
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
     background: red !important;
 }
 
@@ -1175,10 +1166,6 @@ div.sidebaradbox {
 }
 
 .navbar.navbar-inverse.navbar-static-top.navbar-default.top-menu-bg{
-    -moz-border-radius: 10px !important;
-    -webkit-border-radius: 10px !important;
-    -ms-border-radius: 10px !important;
-    -o-border-radius: 10px !important;
     background: none !important;
 }
 
@@ -1188,4 +1175,9 @@ div.sidebaradbox {
 
 .menu-trinh-don-1-container ul#menu-trinh-don-1 li a{
     color: #003399;
+}
+
+.current-menu-item {
+    background: #f00f00 !important;
+    color: #000;
 }
