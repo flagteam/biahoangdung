@@ -16,12 +16,12 @@ if ( is_wp_error( $dwqa_current_error ) ) {
 }
 ?>
 	<form action="" name="dwqa-submit-question-form" id="dwqa-submit-question-form" method="post">
-		<div class="question-advance">
+		<div class="question-advance" style="display: none">
 			<div class="question-meta">
 				<div class="select-category">
 					<label for="question-category"><?php _e( 'Question Category','dwqa' ) ?></label>
-					<?php  
-						wp_dropdown_categories( array( 
+					<?php
+						wp_dropdown_categories( array(
 							'name'          => 'question-category',
 							'id'            => 'question-category',
 							'taxonomy'      => 'dwqa-question_category',
@@ -31,7 +31,7 @@ if ( is_wp_error( $dwqa_current_error ) ) {
 							'selected'      => isset( $_POST['question-category'] ) ? esc_html( $_POST['question-category'] ) : false,
 						) );
 					?>
-				</div>   
+				</div>
 				<div class="input-tag">
 					<label for="question-tag"><?php _e( 'Question Tags', 'dwqa' ) ?></label>
 					<input type="text" name="question-tag" id="question-tag" placeholder="<?php _e( 'tag 1, tag 2,...', 'dwqa' ) ?>" value="<?php echo isset( $_POST['question-tag'] ) ? esc_html( $_POST['question-tag'] ) : ''; ?>" />

@@ -3,7 +3,7 @@
 		<?php dwqa_load_template( 'search', 'question' ); ?>
 		<div class="filter-bar">
 			<?php wp_nonce_field( '_dwqa_filter_nonce', '_filter_wpnonce', false ); ?>
-			<?php dwqa_get_ask_question_link( ); ?>
+<!--			--><?php //dwqa_get_ask_question_link( ); ?>
 			<div class="filter">
 				<li class="status">
 					<?php $selected = isset( $_GET['status'] ) ? esc_html( $_GET['status'] ) : 'all'; ?>
@@ -34,7 +34,7 @@
 				</li>
 			</div>
 			<div class="filter sort-by">
-				<div class="filter-by-category select">
+				<div class="filter-by-category select" style="display: none">
 				<?php
 					$selected = false;
 					$taxonomy = get_query_var( 'taxonomy' );
@@ -133,7 +133,7 @@
 			<?php dwqa_load_template( 'content', 'question' ); ?>
 		<?php endwhile; ?>
 		</div>
-		<div class="archive-question-footer">
+		<div class="archive-question-footer" style="display: none">
 			<?php dwqa_load_template( 'navigation', 'archive' ); ?>
 
 			<?php dwqa_get_ask_question_link(); ?>
