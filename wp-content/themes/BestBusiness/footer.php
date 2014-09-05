@@ -4,7 +4,7 @@ global $data;
 <?php
 if(trim($data['tp_footer_widgets'])){
 	?>
-	<div class="footer-container">
+	<div class="footer-container" style="display: none">
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="container">
 				<div class="row">
