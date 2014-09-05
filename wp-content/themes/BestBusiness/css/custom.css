@@ -28,19 +28,24 @@ body {
 }
 h1, h2, h3, h4 {
     color: #2D3E50;
-    font-family: 'helvetica_condensedmedium';
+    font-family: 'Tahoma';
     font-weight: 300;
 }
 a {
      color: #000;
     outline: medium none !important;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
 }
 a:visited {
     /*color: #e95d70;*/
 }
 a:hover {
-   /* color: #e95d70;*/
-    text-decoration: underline;
+    color: #FE2E2E !important;
+    /*text-decoration: underline;*/
 }
 ol, ul {
     list-style: none outside none;
@@ -408,7 +413,7 @@ div.c-wrapper {
 .main-left-bar {
 }
 .main-left-bar h3 {
-   background:#d74b5e;
+   background:#ff8c00;
 /*border-bottom:2px solid #ee9724;*/
 color:#FFFFFF;
 font-size:20px;
@@ -465,7 +470,7 @@ padding:12px 0 12px 10px;
 .main-right-bar {
 }
 .main-right-bar h3 {
-    background:#d74b5e;
+    background:#ff8c00;
 /*border-bottom:2px solid #ee9724;*/
 color:#FFFFFF;
 font-size:20px;
@@ -489,14 +494,13 @@ padding:12px 0 12px 10px;
     overflow: hidden;
 }
 .midd-bar h1 {
-    font-size: 26px;
-    font-weight: bold;
+    font-size: 30px;
     margin: 10px 0;
     padding: 0;
     text-transform: capitalize;
 }
 .recent-post-box {
-
+    margin: 5px;
 	background:#F8F8F8;
     border: 1px solid #E6E6E6;
     padding: 10px;
@@ -570,7 +574,8 @@ padding:12px 0 12px 10px;
     border-radius: 4px;
     color: #FFFFFF !important;
     float: right;
-    padding: 7px;
+    padding: 5px;
+    margin: 10px;
     transition: all 100ms linear 0s;
 }
 .read-more-btn:focus {
