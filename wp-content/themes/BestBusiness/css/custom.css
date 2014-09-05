@@ -148,13 +148,15 @@ p {
     width: 75%;
 }
 .search-box-btn {
-     background-color: #d74b5e;
+     background-color: #ff8c00;
     border: 0 none;
     color: #FFFFFF;
+    transition: all 100ms linear 0s;
 }
 .search-box-btn:hover {
-       background-color: #e95d70;
-    color: #000000;F;
+       background-color: #000000;
+    color: #FFFFFF;
+    transition: all 100ms linear 0s;
 }
 .main-right-bar select {
     background-color: #FFFFFF;
@@ -307,13 +309,13 @@ p {
     width: 60%;
 }
 .carousel-indicators .active {
-    background-color: #d74b5e;
-    border-color: #d74b5e;
+    background-color: #ff8c00;
+    border-color: #ff8c00;
     height: 14px;
     width: 14px;
 }
 .carousel-indicators li {
-    border-color: #d74b5e;
+    border-color: #ff8c00;
     height: 12px;
     width: 12px;
 }
@@ -495,7 +497,7 @@ padding:12px 0 12px 10px;
 }
 .midd-bar h1 {
     font-size: 30px;
-    margin: 10px 0;
+    margin: 10px 5px;
     padding: 0;
     text-transform: capitalize;
 }
@@ -569,7 +571,7 @@ padding:12px 0 12px 10px;
 .recent-post-top-menu li a:hover {
 }
 .read-more-btn {
-    background-color: #d74b5e;
+    background-color: #ff8c00;
     border: 0 none;
     border-radius: 4px;
     color: #FFFFFF !important;
@@ -582,8 +584,8 @@ padding:12px 0 12px 10px;
     text-decoration: none;
 }
 .read-more-btn:hover {
-    background-color: #e95d70;
-    color: #000000 !important;
+    background-color: #000000;
+    color: #FFFFFF !important;
     text-decoration: none;
     transition: all 200ms linear 0s;
 }
@@ -673,9 +675,18 @@ padding:12px 0 12px 10px;
     text-align: center;
 }
 #wp-calendar tbody td:hover {
-    background: none repeat scroll 0 0 #d74b5e;
+    background: none repeat scroll 0 0 #ff8c00;
     color: #FFFFFF;
 }
+
+#wp-calendar tbody td a {
+    color: #000000;
+}
+
+#wp-calendar tbody td a:hover {
+    color: #ffffff !important;
+}
+
 #wp-calendar tbody .pad {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
@@ -832,14 +843,14 @@ color: #FFFFFF !important;
 .social-icons-box a:hover {
 }
 .social-icons-box img {
-   background-color: #e95d70;
+   background-color: #ff8c00;
     border-radius: 3px;
     margin: 0 0 5px;
     padding: 2px;
     transition: all 300ms linear 0s;
 }
 .social-icons-box img:hover {
-   background-color: #d74b5e;
+   background-color: #000000;
     transition: all 3ms linear 0s;
 }
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
@@ -1185,8 +1196,7 @@ div.sidebaradbox {
 }
 
 .current-menu-item {
-    background: #f00f00 !important;
-    color: #000;
+    background: #333333 !important;
 }
 
 .col-sm-2 {
@@ -1201,7 +1211,7 @@ div.sidebaradbox {
 }
 
 .col-sm-pull-6 {
-    right: 55.2% !important;
+    right: 55% !important;
 }
 
 .col-sm-4 {
@@ -1210,4 +1220,36 @@ div.sidebaradbox {
 
 label {
     display: inline !important;
+}
+
+/*.textwidget {*/
+    /*text-align: center;*/
+/*}*/
+
+.textwidget h1.title-image-new {
+    font-family: 'FontAwesome';
+    text-align: center;
+}
+
+.yop_poll_vote_button {
+    background-color: #ff8c00;
+    border: 0 none;
+    border-radius: 4px;
+    color: #ffffff !important;
+    padding: 5px;
+    transition: all 100ms linear 0s;
+    width: 45px;
+}
+
+.yop_poll_vote_button:hover {
+    background-color: #000000;
+    border: 0 none;
+    border-radius: 4px;
+    color: #ffffff !important;
+    padding: 5px;
+    transition: all 100ms linear 0s;
+}
+
+.footer-bottom-col {
+    background: #ff8c00 !important;
 }
