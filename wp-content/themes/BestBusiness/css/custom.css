@@ -274,7 +274,7 @@ p {
     border-color: #FE7285 !important;
 }
 .dropdown-menu {
-    background-color: #f00f00 !important;
+    background-color: #ff8c00 !important;
     border: 0 none !important;
     border-radius: 0;
     box-shadow: 0 0 0 0 !important;
@@ -1149,11 +1149,17 @@ div.sidebaradbox {
 .menu-trinh-don-1-container ul#menu-trinh-don-1{
     width: 1140px;
     border: 2px solid #ffffff;
-    background: #FF8C00;
+    background: #fcbe4b;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#fcbe4b), to(#FF8C00));
+    background: -webkit-linear-gradient(#fcbe4b, #FF8C00);
+    background: -moz-linear-gradient(#fcbe4b, #FF8C00);
+    background: -ms-linear-gradient(#fcbe4b, #FF8C00);
+    background: -o-linear-gradient(#fcbe4b, #FF8C00);
+    background: linear-gradient(#fcbe4b, #FF8C00);
 }
 
 .menu-trinh-don-1-container ul#menu-trinh-don-1 li a:hover{
-    background: red !important;
+    background: #333333 !important;
 }
 
 .menu-trinh-don-1-container ul#menu-trinh-don-1 li a {
@@ -1162,7 +1168,8 @@ div.sidebaradbox {
 }
 
 .top-header-bg{
-    background: #FFD700 !important;
+    background: url('../images/beer-banner.jpg') no-repeat !important;
+    background-size: cover !important;
 }
 
 .navbar.navbar-inverse.navbar-static-top.navbar-default.top-menu-bg{
@@ -1180,4 +1187,27 @@ div.sidebaradbox {
 .current-menu-item {
     background: #f00f00 !important;
     color: #000;
+}
+
+.col-sm-2 {
+    width: 22% !important;
+}
+
+.col-sm-push-2 {
+    left: 21.5% !important;
+}
+.col-sm-6 {
+    width: 55% !important;
+}
+
+.col-sm-pull-6 {
+    right: 55.2% !important;
+}
+
+.col-sm-4 {
+    width: 23% !important;
+}
+
+label {
+    display: inline !important;
 }
