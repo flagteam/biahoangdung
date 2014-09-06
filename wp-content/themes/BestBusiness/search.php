@@ -14,7 +14,7 @@ global $data;
 
 <div class="midd-bar">
 
-<h1>Search Results</h1>
+<h1>Kết quả tìm kiếm</h1>
 
 <?php
 if(have_posts()) : ?>
@@ -65,7 +65,7 @@ if(have_posts()) : ?>
 <?php else : ?>
 
 					<div class="recent-post-box clearfix">
-						<h2 class="pagetitle">No results found. Try a different search?</h2>
+						<h2 class="pagetitle">Không tìm thấy kết quả. Hãy thử lại!</h2>
 						<form method="get" id="searchform" action="<?php echo home_url() ; ?>/">
 							<div class="search-box-2" style="text-align:center;">           
 <div class="input-group">
@@ -73,7 +73,7 @@ if(have_posts()) : ?>
 <input type="text" value="<?php echo esc_html($s, 1); ?>" name="s" id="s" maxlength="33" class="form-control" />
 
 <span class="input-group-btn">
-<input type="submit" name="search" id="search" class="search-box-btn btn btn-default" value="Search" />
+<input type="submit" name="search" id="search" class="search-box-btn btn btn-default" value="Tìm kiếm" />
 
 </span>
 

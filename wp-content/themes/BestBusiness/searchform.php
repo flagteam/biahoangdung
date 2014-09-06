@@ -7,7 +7,7 @@
 <input type="text" value="<?php echo esc_html($s, 1); ?>" name="s" id="s" maxlength="33" class="form-control" />
 
 <span class="input-group-btn">
-<input type="submit" name="search" id="search" class="search-box-btn btn btn-default" value="Search" />
+<input type="submit" name="search" id="search" class="search-box-btn btn btn-default" value="Tìm kiếm" />
 
 </span>
 </div></div></div>

@@ -89,7 +89,7 @@ function new_excerpt_more( $more ) {
 	global $data;
 	//return  '<br />' . $data['tp_read_more'];
 	
-	return '<br /><a title="' . $data['tp_read_more'] .'" class="read-more-btn" href="'. get_permalink( get_the_ID() ) . '">' . $data['tp_read_more'] . '</a>';
+	return '<br /><a title="' . $data['tp_read_more'] .'" class="read-more-btn" href="'. get_permalink( get_the_ID() ) . '">' . 'Xem tiếp'. '</a>';
 }
 
 add_filter('excerpt_more', 'new_excerpt_more');
