@@ -1,6 +1,6 @@
 <div class="main-left-bar clearfix">
 <?php
-if (is_home()) {
+if (is_home() || is_search() || is_404()) {
 ?>
 <div class="side-links">
 		<h3>Đồ uống</h3>
