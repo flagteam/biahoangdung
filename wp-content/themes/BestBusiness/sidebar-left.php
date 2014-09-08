@@ -1,4 +1,83 @@
 <div class="main-left-bar clearfix">
+<?php
+if (is_home()) {
+?>
+<div class="side-links">
+		<h3>Đồ uống</h3>
+		<div class="side-links-blcok">		
+			<ul>
+				<li class="cat-item cat-item-1"><a href="http://dunghoang.vn/?cat=3" title="Bia">Bia</a></li>
+				<li class="cat-item cat-item-1"><a href="http://dunghoang.vn/?cat=4" title="Rượu">Rượu</a></li>
+				<li class="cat-item cat-item-1"><a href="http://dunghoang.vn/?cat=5" title="Nước giải khát">Nước giải khát</a></li>
+			</ul>
+		</div>
+	</div>
+<?php 
+}else if(is_category( $category )){
+	$this_cat = get_query_var('cat');
+	$args = array(
+	'type'                     => 'post',
+	'child_of'                 => $this_cat,
+	'parent'                   => '',
+	'orderby'                  => 'name',
+	'order'                    => 'ASC',
+	'hide_empty'               => 0,
+	'hierarchical'             => 1,
+	'exclude'                  => '',
+	'include'                  => '',
+	'number'                   => '',
+	'taxonomy'                 => 'category',
+	'pad_counts'               => false 
+); 
+	$categories = get_categories( $args );
+	?>
+	<div class="side-links">
+		<h3><?php echo single_cat_title( '', true ); ?></h3>
+		<div class="side-links-blcok">		
+			<ul>
+				<?php
+				foreach ($categories as $cat) {
+					?>
+					<li class="cat-item cat-item-1"><a href="http://dunghoang.vn/?cat=<?php echo $cat->term_id; ?>" title="<?php echo $cat->name ?>"><?php echo $cat->name ?></a></li>
+				<?php } ?>
+			</ul>
+		</div>
+	</div>
+	
+<?php }else{  
+$args = array(
+	'sort_order' => 'ASC',
+	'sort_column' => 'post_title',
+	'hierarchical' => 1,
+	'exclude' => '',
+	'include' => '',
+	'meta_key' => '',
+	'meta_value' => '',
+	'authors' => '',
+	'child_of' => get_the_ID(),
+	'parent' => -1,
+	'exclude_tree' => '',
+	'number' => '',
+	'offset' => 0,
+	'post_type' => 'page',
+	'post_status' => 'publish'
+); 
+$pages = get_pages($args); 
+?>
+<div class="side-links">
+		<h3><?php echo get_post(get_the_ID())->post_title; ?></h3>
+		<div class="side-links-blcok">		
+			<ul>
+				<?php
+				foreach ($pages as $page) {
+					?>
+					<li class="cat-item cat-item-1"><a href="http://dunghoang.vn/?page_id=<?php echo $page->ID; ?>" title="<?php echo $page->post_title ?>"><?php echo $page->post_title ?></a></li>
+				<?php } ?>
+			</ul>
+		</div>
+	</div>
+<?php } ?>
+
 <?php 
 if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('tp_left_sidebar') ){ 
 ?>
