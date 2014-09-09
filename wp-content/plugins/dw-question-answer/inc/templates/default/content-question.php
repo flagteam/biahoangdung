@@ -42,7 +42,7 @@
 					}
 				?>
 			</div>
-			<div class="dwqa-vote">
+			<div class="dwqa-vote" style="display: none">
 				<?php $answer_vote = dwqa_vote_count(); ?>
 				<?php if ( $answer_vote > 0 ) {
 						printf(

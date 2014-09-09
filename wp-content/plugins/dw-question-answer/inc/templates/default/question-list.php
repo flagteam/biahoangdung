@@ -110,7 +110,7 @@
 					<li class="most-answers <?php echo $orderby == 'answers' ? 'active' : ''; ?>" data-type="answers" >
 						<span href="#"><?php _e( 'Answer', 'dwqa' ) ?></span> <i class="fa fa-sort <?php echo $orderby == 'answers' ? 'fa-sort-up' : ''; ?>"></i>
 					</li>
-					<li class="most-votes <?php echo $orderby == 'votes' ? 'active' : ''; ?>" data-type="votes" >
+					<li style="display: none" class="most-votes <?php echo $orderby == 'votes' ? 'active' : ''; ?>" data-type="votes" >
 						<span><?php _e( 'Vote', 'dwqa' ) ?></span> <i class="fa fa-sort <?php echo $orderby == 'votes' ? 'fa-sort-up' : ''; ?>"></i>
 					</li>
 				</ul>
