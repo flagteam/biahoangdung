@@ -98,24 +98,7 @@ if ( dwqa_is_closed( $question_id ) ) {
 	return false;
 }
 
-if ( dwqa_current_user_can( 'post_answer' ) ) {
+if ( is_user_logged_in() ) {
+//    if ( dwqa_current_user_can( 'post_answer' ) ) {
 	dwqa_submit_answer_form();
-} else { ?>
-	<?php if ( is_user_logged_in() ) { ?>
-		<div class="alert"><?php _e( 'You do not have permission to submit answer.','dwqa' ) ?></div>
-	<?php } else { ?>
-	<h3 class="dwqa-title">
-		<?php 
-			printf( '%1$s <a href="%2$s" title="%3$s">%3$s</a> %4$s', __( 'Please login or', 'dwqa' ), wp_registration_url(), __( 'Register', 'dwqa' ), __( 'to Submit Answer', 'dwqa' ) );
-		?>
-	</h3>
-	<div class="login-box">
-		<?php 
-			wp_login_form( array(
-				'redirect'  => get_post_permalink( $question_id ),
-			) ); 
-		?>
-	</div>
-	<?php
-	}
 }
