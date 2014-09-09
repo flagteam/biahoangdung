@@ -628,7 +628,7 @@ function dwqa_question_privacy_button( $post_id = false ) {
 	}
 	$post_status = get_post_status( $post_id );
 	?>
-	<div data-post="<?php echo $post_id; ?>" data-nonce="<?php echo wp_create_nonce( '_dwqa_update_privacy_nonce' ); ?>" data-type="question" class="dwqa-privacy">
+	<div data-post="<?php echo $post_id; ?>" data-nonce="<?php echo wp_create_nonce( '_dwqa_update_privacy_nonce' ); ?>" data-type="question" class="dwqa-privacy" style="display: none">
 		<input type="hidden" name="privacy" value="<?php get_post_status(); ?>">
 		<?php if ( $post_status != 'draft' 
 					&& ( dwqa_current_user_can( 'edit_question' ) || dwqa_current_user_can( 'edit_answer' ) || get_post_field( 'post_author', $post_id ) == $current_user->ID ) ) { ?>

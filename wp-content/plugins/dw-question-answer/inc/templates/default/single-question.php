@@ -57,7 +57,7 @@
 					</div>
 				</div><!-- end question -->
 
-				<div id="dwqa-answers">
+				<div id="dwqa-answers" style="display: none">
 					<?php dwqa_load_template( 'answers' ); ?>
 				</div><!-- end dwqa-add-answers -->
 			</div><!-- end dwqa-single-question -->
