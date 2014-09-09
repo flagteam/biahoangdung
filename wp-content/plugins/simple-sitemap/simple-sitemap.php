@@ -308,6 +308,12 @@ function wpss_gen() {
 		</div><!--ss_pages -->
 
 	<?php endif; ?>
+    <?php // RENDER SITEMAP CATEGORIES ?>
+
+    <h2>Categories</h2>
+    <ul>
+        <?php wp_list_categories('hide_empty=0&title_li='); ?>
+    </ul>
 
 
 	<?php // RENDER SITEMAP POSTS ?>
