@@ -1,19 +1,6 @@
 <div class="main-left-bar clearfix">
 <?php
-if (is_home() || is_search() || is_404()) {
-?>
-<div class="side-links">
-		<h3>Đồ uống</h3>
-		<div class="side-links-blcok">		
-			<ul>
-				<li class="cat-item cat-item-1"><a href="http://dunghoang.vn/?cat=3" title="Bia">Bia</a></li>
-				<li class="cat-item cat-item-1"><a href="http://dunghoang.vn/?cat=4" title="Rượu">Rượu</a></li>
-				<li class="cat-item cat-item-1"><a href="http://dunghoang.vn/?cat=5" title="Nước giải khát">Nước giải khát</a></li>
-			</ul>
-		</div>
-	</div>
-<?php 
-}else if(is_category( $category )){
+if(is_category( $category )){
 	$this_cat = get_query_var('cat');
 	$args = array(
 	'type'                     => 'post',
@@ -44,7 +31,7 @@ if (is_home() || is_search() || is_404()) {
 		</div>
 	</div>
 	
-<?php }else{  
+<?php }else if (is_page()){  
 $args = array(
 	'sort_order' => 'ASC',
 	'sort_column' => 'post_title',
@@ -76,7 +63,20 @@ $pages = get_pages($args);
 			</ul>
 		</div>
 	</div>
-<?php } ?>
+<?php } else{
+	?>
+<div class="side-links">
+		<h3>Đồ uống</h3>
+		<div class="side-links-blcok">		
+			<ul>
+				<li class="cat-item cat-item-1"><a href="http://dunghoang.vn/?cat=3" title="Bia">Bia</a></li>
+				<li class="cat-item cat-item-1"><a href="http://dunghoang.vn/?cat=4" title="Rượu">Rượu</a></li>
+				<li class="cat-item cat-item-1"><a href="http://dunghoang.vn/?cat=5" title="Nước giải khát">Nước giải khát</a></li>
+			</ul>
+		</div>
+	</div>
+<?php 
+} ?>
 
 <?php 
 if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('tp_left_sidebar') ){ 
