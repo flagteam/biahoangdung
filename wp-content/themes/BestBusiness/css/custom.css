@@ -1264,3 +1264,86 @@ label {
     margin-left: 15px;
     margin-top: 5px;
 }
+
+.dwqa-container .dwqa-search-form span.dwqa-search-submit {
+    right: 0 !important;
+    padding: 15px !important;
+}
+
+.dwqa-container, .dwqa-search .dwqa-search-form {
+    background: #f8f8f8 !important;
+}
+
+.dwqa-submit-question .input-title #question-title {
+    margin: 10px 0 0;
+}
+
+.wp-editor-wrap {
+    margin: 10px 0 0;
+}
+
+.dwqa-list-question .loading {
+    background: url("../images/loading.gif") no-repeat scroll center 20% rgba(0, 0, 0, 0) !important;
+}
+
+
+.dwqa-list-question .dwqa-comment {
+    border: 1px solid #1ba1e2 !important;
+    background-color: #ffffff;
+    color: #1ba1e2;
+}
+
+.dwqa-list-question .dwqa-comment strong {
+    color: #1ba1e2;
+    font-weight: bolder;
+    font-size: 125%;
+}
+
+.dwqa-list-question .dwqa-view {
+    border: 1px solid #ff8c00 !important;
+    background-color: #ffffff;
+    color: #ff8c00;
+}
+
+.dwqa-list-question .dwqa-view strong {
+    color: #ff8c00;
+    font-weight: bolder;
+    font-size: 125%;
+}
+
+div.wpcf7 {
+    margin: 15px !important;
+}
+
+.wpcf7-textarea {
+    width: 100%;
+}
+
+.wpcf7-submit {
+    background-color: #ff8c00;
+    border: 0 none;
+    border-radius: 4px;
+    color: #ffffff !important;
+    padding: 5px;
+    transition: all 100ms linear 0s;
+    width: 50px;
+}
+
+.wpcf7-submit:hover {
+    background-color: #000000;
+    border: 0 none;
+    border-radius: 4px;
+    color: #ffffff !important;
+    padding: 5px;
+    transition: all 100ms linear 0s;
+    width: 50px;
+}
+
+.wpcf7-validation-errors {
+    border: 2px solid red !important;
+    color: red;
+}
+
+div.wpcf7-mail-sent-ok {
+    color: #398f14;
+}
