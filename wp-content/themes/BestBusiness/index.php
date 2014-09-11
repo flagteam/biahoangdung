@@ -194,7 +194,7 @@ if($data['tp_primary_slider'] && is_home() && !is_paged()){
 			<?php 
 			if ( has_post_thumbnail() ) {
 			
-			the_post_thumbnail( 'single-page-thumbnail' );
+			the_post_thumbnail( 'thumbnail' );
 			
 			?>
 			</p>

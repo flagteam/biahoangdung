@@ -34,7 +34,7 @@ if(have_posts()) : ?>
 			<?php 
 			if ( has_post_thumbnail() ) {
 									
-			the_post_thumbnail( 'single-page-thumbnail' );
+			//the_post_thumbnail( 'single-page-thumbnail' );
 			?>
 		
 			</p>
