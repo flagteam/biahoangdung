@@ -1347,3 +1347,7 @@ div.wpcf7 {
 div.wpcf7-mail-sent-ok {
     color: #398f14;
 }
+
+.navigation, footer.entry-meta {
+    display: none;
+}
