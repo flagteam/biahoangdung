@@ -25,7 +25,7 @@ if(is_category( $category )){
 				<?php
 				foreach ($categories as $cat) {
 					?>
-					<li class="cat-item cat-item-1"><a href="http://dunghoang.vn/?cat=<?php echo $cat->term_id; ?>" title="<?php echo $cat->name ?>"><?php echo $cat->name ?></a></li>
+					<li class="cat-item cat-item-1"><a href="http://biasaigonhanoi.vn/?cat=<?php echo $cat->term_id; ?>" title="<?php echo $cat->name ?>"><?php echo $cat->name ?></a></li>
 				<?php } ?>
 			</ul>
 		</div>
@@ -58,7 +58,7 @@ $pages = get_pages($args);
 				<?php
 				foreach ($pages as $page) {
 					?>
-					<li class="cat-item cat-item-1"><a href="http://dunghoang.vn/?page_id=<?php echo $page->ID; ?>" title="<?php echo $page->post_title ?>"><?php echo $page->post_title ?></a></li>
+					<li class="cat-item cat-item-1"><a href="http://biasaigonhanoi.vn/?page_id=<?php echo $page->ID; ?>" title="<?php echo $page->post_title ?>"><?php echo $page->post_title ?></a></li>
 				<?php } ?>
 			</ul>
 		</div>
@@ -69,9 +69,9 @@ $pages = get_pages($args);
 		<h3>Đồ uống</h3>
 		<div class="side-links-blcok">		
 			<ul>
-				<li class="cat-item cat-item-1"><a href="http://dunghoang.vn/?cat=3" title="Bia">Bia</a></li>
-				<li class="cat-item cat-item-1"><a href="http://dunghoang.vn/?cat=4" title="Rượu">Rượu</a></li>
-				<li class="cat-item cat-item-1"><a href="http://dunghoang.vn/?cat=5" title="Nước giải khát">Nước giải khát</a></li>
+				<li class="cat-item cat-item-1"><a href="http://biasaigonhanoi.vn/?cat=3" title="Bia">Bia</a></li>
+				<li class="cat-item cat-item-1"><a href="http://biasaigonhanoi.vn/?cat=4" title="Rượu">Rượu</a></li>
+				<li class="cat-item cat-item-1"><a href="http://biasaigonhanoi.vn/?cat=5" title="Nước giải khát">Nước giải khát</a></li>
 			</ul>
 		</div>
 	</div>
