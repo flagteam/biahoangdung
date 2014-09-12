@@ -21,7 +21,7 @@ if(have_posts()) : ?>
 	<ul>				
 		<li><span><img src="<?php echo get_bloginfo('template_directory');?>/images/icon-date.png" alt="" /><?php __( 'Posted on', 'tp' );?><?php echo get_the_date(); ?></span></li>
 	<li class="cat"><span><img src="<?php echo get_bloginfo('template_directory');?>/images/icon-folder.png" alt="" /><a href="#"><?php the_category(', ') ; ?></a></span></li>
-<li><span><img src="<?php echo get_bloginfo('template_directory');?>/images/icon-comment.png" alt="" /><?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?></span></li>	
+<!--<li><span><img src="--><?php //echo get_bloginfo('template_directory');?><!--/images/icon-comment.png" alt="" />--><?php //comments_popup_link('No Comments', '1 Comment', '% Comments'); ?><!--</span></li>	-->
 		</ul>
 		
 		</div>
