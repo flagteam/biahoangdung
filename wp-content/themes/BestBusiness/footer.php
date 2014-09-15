@@ -98,7 +98,7 @@ if(trim($data['tp_footer_widgets'])){
 			<a href="<?php //bloginfo('rss2_url'); ?>"><!--Latest Stories RSS--></a>  <?php //comments_rss_link('Comments RSS'); ?>
 			<span class="wp-right">Powered by <a href="https://www.facebook.com/pages/Flag-Team/483376315098901">Flag Team</a></span>		
 
-			<div id="credits">Theme Sponsored by: <?php echo wp_theme_credits(0); ?>, <?php echo wp_theme_credits(1); ?>, <?php echo wp_theme_credits(2); ?> and <?php echo wp_theme_credits(3); ?></div>  
+			<!-- <div id="credits">Theme Sponsored by: <?php echo wp_theme_credits(0); ?>, <?php echo wp_theme_credits(1); ?>, <?php echo wp_theme_credits(2); ?> and <?php echo wp_theme_credits(3); ?></div>   -->
 
 </div>
 </div>   
