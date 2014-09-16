@@ -1164,7 +1164,7 @@ div.sidebaradbox {
 }
 
 .menu-trinh-don-1-container ul#menu-trinh-don-1{
-    width: 1140px;
+    width: 100%;
     border: 2px solid #ffffff;
     background: #fcbe4b;
     background: -webkit-gradient(linear, 0 0, 0 bottom, from(#fcbe4b), to(#FF8C00));
@@ -1350,4 +1350,20 @@ div.wpcf7-mail-sent-ok {
 
 .navigation, footer.entry-meta {
     display: none;
+}
+
+.menu-trinh-don-1-container {
+    width: 100% !important;
+}
+
+.navbar-collapse {
+    padding: 0;
+}
+
+html #wpadminbar {
+    z-index: 99999 !important;
+}
+
+.navbar-header {
+    background-color: red;
 }
