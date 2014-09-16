@@ -502,7 +502,6 @@ padding:12px 0 12px 10px;
     text-transform: capitalize;
 }
 .recent-post-box {
-    margin: 5px;
 	background:#F8F8F8;
     border: 1px solid #E6E6E6;
     padding: 10px;
@@ -1205,24 +1204,6 @@ div.sidebaradbox {
     background: #333333 !important;
 }
 
-.col-sm-2 {
-    width: 22% !important;
-}
-
-.col-sm-push-2 {
-    left: 21.8% !important;
-}
-.col-sm-6 {
-    width: 55% !important;
-}
-
-.col-sm-pull-6 {
-    right: 55% !important;
-}
-
-.col-sm-4 {
-    width: 23% !important;
-}
 
 label {
     display: inline !important;
