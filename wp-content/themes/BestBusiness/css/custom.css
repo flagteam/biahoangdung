@@ -502,6 +502,7 @@ padding:12px 0 12px 10px;
     text-transform: capitalize;
 }
 .recent-post-box {
+    margin-bottom: 10px;
 	background:#F8F8F8;
     border: 1px solid #E6E6E6;
     padding: 10px;
