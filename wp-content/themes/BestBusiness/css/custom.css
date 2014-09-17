@@ -262,18 +262,18 @@ p {
     border: 0 none !important;
 }
 .navbar-toggle {
-    background-color: #d74b5e  !important;
-    border-color: #d74b5e  !important;
+    background-color: #ff8c00  !important;
+    border-color: #ff8c00  !important;
     margin-bottom: 0;
     padding: 14px;
 }
 .navbar-toggle:hover {
-    background-color: #FE7285 !important;
-    border-color: #FE7285 !important;
+    background-color: #F47315 !important;
+    border-color: #F47315 !important;
 }
 .navbar-toggle:focus {
-    background-color: #FE7285 !important;
-    border-color: #FE7285 !important;
+    background-color: #ff8c00 !important;
+    border-color: #ff8c00 !important;
 }
 .dropdown-menu {
     background-color: #ff8c00 !important;
@@ -1347,5 +1347,5 @@ html #wpadminbar {
 }
 
 .navbar-header {
-    background-color: red;
+    background-color: #fcbe4b;
 }
